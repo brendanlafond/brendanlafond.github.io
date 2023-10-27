@@ -76,8 +76,7 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
-    - vendor
-    - google4a6e6210825ae795.html
+    - vendors
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -113,7 +112,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: brendanlafond     # Default author for pages
   -
     scope:
       path: ''
@@ -122,7 +121,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: brendanlafond     # Default author for posts
 
 
 
@@ -193,8 +192,7 @@ og_type                              : 'website'
 #
 
 socialmedia:
-    twitter   : phlow
-    facebook  : phlow.media
+    twitter   : blafond11
 
 
 #        ____  _
@@ -230,7 +228,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-# google_analytics_tracking_id:
+google_analytics_tracking_id: UA-46924344-1
 
 
 
